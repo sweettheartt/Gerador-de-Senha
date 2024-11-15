@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gerador de Senha</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Gerador de Senha</h1>
+        <div class="input-group mb-3">
+            <input type="text" id="password" class="form-control" readonly>
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" id="generate"><i class="fas fa-key"></i> Gerar Senha</button>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-primary" id="copy"><i class="fas fa-copy"></i> Copiar Senha</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
